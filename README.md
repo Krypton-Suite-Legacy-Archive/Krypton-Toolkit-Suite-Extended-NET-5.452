@@ -13,6 +13,7 @@
 Please refer to [examples](https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.450/blob/master/Examples.md) to see what each control looks like.
 
 ======
+
 ## 2019-06-01 Build 1031 - June Update
 * Implement `WindowsAPICodePackModel.cs` class for dealing with **WindowsAPICodePack** features 
 * New `Palette Explorer` controls
