@@ -310,3 +310,5 @@ __pycache__/
 OpenCover/
 *.zip
 *.dll
+Source/Krypton Toolkit Suite Extended/Application Updater/Sample/CheckSums.xml
+Source/Krypton Toolkit Suite Extended/Application Updater/Sample/Update.xml
