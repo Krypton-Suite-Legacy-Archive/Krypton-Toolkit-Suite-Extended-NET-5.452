@@ -216,8 +216,8 @@
     <Content Include="XML\CustomDictionary.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5452">
-      <Version>5.452.1204</Version>
+    <PackageReference Include="KryptonToolkitSuite5470">
+      <Version>5.452.1222</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
