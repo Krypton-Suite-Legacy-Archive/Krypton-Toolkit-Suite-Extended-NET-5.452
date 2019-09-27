@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.470/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
@@ -73,7 +73,7 @@ namespace PaletteEditor.Classes
 
             lightestColourPreview.Location = new Point(365, 15);
 
-            borderColourPreview.Location = new Point(451, 15);
+            borderColourPreview.Location = new Point(452, 15);
 
             alternativeNormalTextColourPreview.Location = new Point(537, 14);
 
@@ -89,7 +89,7 @@ namespace PaletteEditor.Classes
 
             linkNormalColourPreview.Location = new Point(365, 129);
 
-            linkHoverColourPreview.Location = new Point(451, 129);
+            linkHoverColourPreview.Location = new Point(452, 129);
 
             linkVisitedColourPreview.Location = new Point(537, 129);
 
@@ -105,7 +105,7 @@ namespace PaletteEditor.Classes
 
             customTextColourOne.Location = new Point(365, 238);
 
-            customTextColourTwo.Location = new Point(451, 238);
+            customTextColourTwo.Location = new Point(452, 238);
 
             customTextColourThree.Location = new Point(537, 238);
 
@@ -121,7 +121,7 @@ namespace PaletteEditor.Classes
 
             extra2.Location = new Point(365, 349);
 
-            extra3.Location = new Point(451, 349);
+            extra3.Location = new Point(452, 349);
         }
 
         public static void CircularPictureboxHiddenPropertiesLocation(KryptonGroupBox circularColourPreviewPane, CircularPictureBox baseColourPreview, CircularPictureBox darkColourPreview, CircularPictureBox middleColourPreview, CircularPictureBox lightColourPreview, CircularPictureBox lightestColourPreview, CircularPictureBox borderColourPreview, CircularPictureBox alternativeNormalTextColourPreview, CircularPictureBox normalTextColourPreview, CircularPictureBox disabledTextColourPreview, CircularPictureBox focusedTextColourPreview, CircularPictureBox pressedTextColourPreview, CircularPictureBox disabledColourPreview, CircularPictureBox linkNormalColourPreview, CircularPictureBox linkHoverColourPreview, CircularPictureBox linkVisitedColourPreview, CircularPictureBox customColourOne, CircularPictureBox customColourTwo, CircularPictureBox customColourThree, CircularPictureBox customColourFour, CircularPictureBox customColourFive, CircularPictureBox customTextColourOne, CircularPictureBox customTextColourTwo, CircularPictureBox customTextColourThree, CircularPictureBox customTextColourFour, CircularPictureBox customTextColourFive, CircularPictureBox menuTextColourPreview, CircularPictureBox statusTextColourPreview, CircularPictureBox extra1, CircularPictureBox extra2, CircularPictureBox extra3)

@@ -1808,9 +1808,9 @@ namespace KryptonWizard.Native
             /// <para>Name:     System.Contact.Anniversary -- PKEY_Contact_Anniversary</para>
             /// <para>Description:</para>
             /// <para>Type:     DateTime -- VT_FILETIME (For variants: VT_DATE)</para>
-            /// <para>FormatID: {9AD5BADB-CEA7-4470-A03D-B84E51B9949E}, 100</para>
+            /// <para>FormatID: {9AD5BADB-CEA7-4452-A03D-B84E51B9949E}, 100</para>
             /// </summary>
-            public static ShellItemPropertyKey Anniversary => new ShellItemPropertyKey(new Guid("{9AD5BADB-CEA7-4470-A03D-B84E51B9949E}"), 100);
+            public static ShellItemPropertyKey Anniversary => new ShellItemPropertyKey(new Guid("{9AD5BADB-CEA7-4452-A03D-B84E51B9949E}"), 100);
 
             /// <summary>
             /// <para>Name:     System.Contact.AssistantName -- PKEY_Contact_AssistantName</para>
@@ -2009,9 +2009,9 @@ namespace KryptonWizard.Native
             /// <para>Name:     System.Contact.FirstName -- PKEY_Contact_FirstName</para>
             /// <para>Description:</para>
             /// <para>Type:     String -- VT_LPWSTR (For variants: VT_BSTR)</para>
-            /// <para>FormatID: {14977844-6B49-4AAD-A714-A4513BF60460}, 100</para>
+            /// <para>FormatID: {14977844-6B49-4AAD-A714-A4523BF60460}, 100</para>
             /// </summary>
-            public static ShellItemPropertyKey FirstName => new ShellItemPropertyKey(new Guid("{14977844-6B49-4AAD-A714-A4513BF60460}"), 100);
+            public static ShellItemPropertyKey FirstName => new ShellItemPropertyKey(new Guid("{14977844-6B49-4AAD-A714-A4523BF60460}"), 100);
 
             /// <summary>
             /// <para>Name:     System.Contact.FullName -- PKEY_Contact_FullName</para>
@@ -3251,9 +3251,9 @@ namespace KryptonWizard.Native
             /// <para>Description: Indicates the reference for the altitude property. (eg: above sea level, below sea level, absolute value)
             ///</para>
             /// <para>Type:     Byte -- VT_UI1</para>
-            /// <para>FormatID: {46AC629D-75EA-4515-867F-6DC4321C5844}, 100</para>
+            /// <para>FormatID: {46AC629D-75EA-4525-867F-6DC4321C5844}, 100</para>
             /// </summary>
-            public static ShellItemPropertyKey AltitudeRef => new ShellItemPropertyKey(new Guid("{46AC629D-75EA-4515-867F-6DC4321C5844}"), 100);
+            public static ShellItemPropertyKey AltitudeRef => new ShellItemPropertyKey(new Guid("{46AC629D-75EA-4525-867F-6DC4321C5844}"), 100);
 
             /// <summary>
             /// <para>Name:     System.GPS.AreaInformation -- PKEY_GPS_AreaInformation</para>
@@ -3354,9 +3354,9 @@ namespace KryptonWizard.Native
             ///PKEY_GPS_DestLatitudeDenominator.
             ///</para>
             /// <para>Type:     Multivalue Double -- VT_VECTOR | VT_R8  (For variants: VT_ARRAY | VT_R8)</para>
-            /// <para>FormatID: {9D1D7CC5-5C39-451C-86B3-928E2D18CC47}, 100</para>
+            /// <para>FormatID: {9D1D7CC5-5C39-452C-86B3-928E2D18CC47}, 100</para>
             /// </summary>
-            public static ShellItemPropertyKey DestLatitude => new ShellItemPropertyKey(new Guid("{9D1D7CC5-5C39-451C-86B3-928E2D18CC47}"), 100);
+            public static ShellItemPropertyKey DestLatitude => new ShellItemPropertyKey(new Guid("{9D1D7CC5-5C39-452C-86B3-928E2D18CC47}"), 100);
 
             /// <summary>
             /// <para>Name:     System.GPS.DestLatitudeDenominator -- PKEY_GPS_DestLatitudeDenominator</para>
@@ -5472,9 +5472,9 @@ namespace KryptonWizard.Native
             ///picture is taken.
             ///</para>
             /// <para>Type:     UInt32 -- VT_UI4</para>
-            /// <para>FormatID: {6D217F6D-3F6A-4825-B470-5F03CA2FBE9B}, 100</para>
+            /// <para>FormatID: {6D217F6D-3F6A-4825-B452-5F03CA2FBE9B}, 100</para>
             /// </summary>
-            public static ShellItemPropertyKey ProgramMode => new ShellItemPropertyKey(new Guid("{6D217F6D-3F6A-4825-B470-5F03CA2FBE9B}"), 100);
+            public static ShellItemPropertyKey ProgramMode => new ShellItemPropertyKey(new Guid("{6D217F6D-3F6A-4825-B452-5F03CA2FBE9B}"), 100);
 
             /// <summary>
             /// <para>Name:     System.Photo.ProgramModeText -- PKEY_Photo_ProgramModeText</para>

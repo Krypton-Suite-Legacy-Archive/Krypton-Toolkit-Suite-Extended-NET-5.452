@@ -63,7 +63,7 @@ namespace PaletteExplorer.UX.Colour
             this.kryptonPanel1.Controls.Add(this.kbtnGenerate);
             this.kryptonPanel1.Controls.Add(this.kbtnOk);
             this.kryptonPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.kryptonPanel1.Location = new System.Drawing.Point(0, 451);
+            this.kryptonPanel1.Location = new System.Drawing.Point(0, 452);
             this.kryptonPanel1.Name = "kryptonPanel1";
             this.kryptonPanel1.Size = new System.Drawing.Size(855, 65);
             this.kryptonPanel1.TabIndex = 1;
