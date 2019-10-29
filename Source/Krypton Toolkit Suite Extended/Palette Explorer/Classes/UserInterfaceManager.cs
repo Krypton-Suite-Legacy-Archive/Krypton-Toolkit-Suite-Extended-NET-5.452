@@ -300,7 +300,7 @@ namespace PaletteExplorer.Classes
 
             lightestColourPreview.Location = new Point(365, 15);
 
-            borderColourPreview.Location = new Point(452, 15);
+            borderColourPreview.Location = new Point(451, 15);
 
             alternativeNormalTextColourPreview.Location = new Point(537, 15);
 
@@ -316,7 +316,7 @@ namespace PaletteExplorer.Classes
 
             linkNormalColourPreview.Location = new Point(365, 127);
 
-            linkFocusedColourPreview.Location = new Point(452, 127);
+            linkFocusedColourPreview.Location = new Point(451, 127);
 
             linkHoverColourPreview.Location = new Point(537, 127);
 
@@ -332,7 +332,7 @@ namespace PaletteExplorer.Classes
 
             customColourFive.Location = new Point(365, 239);
 
-            customTextColourOne.Location = new Point(452, 239);
+            customTextColourOne.Location = new Point(451, 239);
 
             customTextColourTwo.Location = new Point(537, 239);
 

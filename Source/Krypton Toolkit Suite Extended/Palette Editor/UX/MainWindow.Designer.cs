@@ -897,7 +897,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Location = new System.Drawing.Point(452, 352);
+            this.pictureBox4.Location = new System.Drawing.Point(451, 352);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(64, 64);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1012,7 +1012,7 @@
             this.pbxCustomTextColourTwoPreview.BackColor = System.Drawing.Color.Transparent;
             this.pbxCustomTextColourTwoPreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbxCustomTextColourTwoPreview.ContextMenuStrip = this.ctxCustomTextColourTwoUtiliseAsBaseColour;
-            this.pbxCustomTextColourTwoPreview.Location = new System.Drawing.Point(452, 239);
+            this.pbxCustomTextColourTwoPreview.Location = new System.Drawing.Point(451, 239);
             this.pbxCustomTextColourTwoPreview.Name = "pbxCustomTextColourTwoPreview";
             this.pbxCustomTextColourTwoPreview.Size = new System.Drawing.Size(64, 64);
             this.pbxCustomTextColourTwoPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1213,7 +1213,7 @@
             this.pbxBorderColourPreview.BackColor = System.Drawing.Color.Transparent;
             this.pbxBorderColourPreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbxBorderColourPreview.ContextMenuStrip = this.ctxBorderUtiliseAsBaseColour;
-            this.pbxBorderColourPreview.Location = new System.Drawing.Point(452, 16);
+            this.pbxBorderColourPreview.Location = new System.Drawing.Point(451, 16);
             this.pbxBorderColourPreview.Name = "pbxBorderColourPreview";
             this.pbxBorderColourPreview.Size = new System.Drawing.Size(64, 64);
             this.pbxBorderColourPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1891,7 +1891,7 @@
             // 
             this.cbxCustomTextColourTwoPreview.BackColor = System.Drawing.Color.White;
             this.cbxCustomTextColourTwoPreview.ContextMenuStrip = this.ctxCustomTextColourTwoUtiliseAsBaseColour;
-            this.cbxCustomTextColourTwoPreview.Location = new System.Drawing.Point(452, 238);
+            this.cbxCustomTextColourTwoPreview.Location = new System.Drawing.Point(451, 238);
             this.cbxCustomTextColourTwoPreview.Name = "cbxCustomTextColourTwoPreview";
             this.cbxCustomTextColourTwoPreview.Size = new System.Drawing.Size(64, 64);
             this.cbxCustomTextColourTwoPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2012,7 +2012,7 @@
             // 
             this.cbxLinkHoverColourPreview.BackColor = System.Drawing.Color.White;
             this.cbxLinkHoverColourPreview.ContextMenuStrip = this.ctxLinkHoverUtiliseAsBaseColour;
-            this.cbxLinkHoverColourPreview.Location = new System.Drawing.Point(452, 129);
+            this.cbxLinkHoverColourPreview.Location = new System.Drawing.Point(451, 129);
             this.cbxLinkHoverColourPreview.Name = "cbxLinkHoverColourPreview";
             this.cbxLinkHoverColourPreview.Size = new System.Drawing.Size(64, 64);
             this.cbxLinkHoverColourPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2044,7 +2044,7 @@
             // circularPictureBox6
             // 
             this.circularPictureBox6.BackColor = System.Drawing.Color.White;
-            this.circularPictureBox6.Location = new System.Drawing.Point(452, 349);
+            this.circularPictureBox6.Location = new System.Drawing.Point(451, 349);
             this.circularPictureBox6.Name = "circularPictureBox6";
             this.circularPictureBox6.Size = new System.Drawing.Size(64, 64);
             this.circularPictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2089,7 +2089,7 @@
             // 
             this.cbxBorderColourPreview.BackColor = System.Drawing.Color.White;
             this.cbxBorderColourPreview.ContextMenuStrip = this.ctxBorderUtiliseAsBaseColour;
-            this.cbxBorderColourPreview.Location = new System.Drawing.Point(452, 15);
+            this.cbxBorderColourPreview.Location = new System.Drawing.Point(451, 15);
             this.cbxBorderColourPreview.Name = "cbxBorderColourPreview";
             this.cbxBorderColourPreview.Size = new System.Drawing.Size(64, 64);
             this.cbxBorderColourPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

@@ -82,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="KryptonToolkitSuite5452">
-      <Version>5.452.1252</Version>
+      <Version>5.452.1300</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
