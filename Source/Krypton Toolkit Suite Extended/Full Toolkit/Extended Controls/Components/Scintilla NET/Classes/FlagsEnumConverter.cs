@@ -1,4 +1,4 @@
-﻿// http://www.codeproject.com/Articles/14518/Bit-Flags-Type-Converter
+﻿// http://www.codeproject.com/Articles/14528/Bit-Flags-Type-Converter
 #pragma warning disable 1573
 
 using System;

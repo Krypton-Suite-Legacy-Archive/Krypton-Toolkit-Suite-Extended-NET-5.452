@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>CircularPictureBoxExample</RootNamespace>
     <AssemblyName>Circular PictureBox Example</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -91,8 +91,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonExtendedToolkit5451CoreModule">
-      <Version>5.451.1400</Version>
+    <PackageReference Include="KryptonExtendedToolkit5452CoreModule">
+      <Version>5.452.1400</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -111,8 +111,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="KryptonExtendedToolkit5451CoreModule" Version="5.451.1400" />
-    <PackageReference Include="KryptonToolkitSuite5451CoreModule" Version="5.451.1300" />
+    <PackageReference Include="KryptonExtendedToolkit5452CoreModule" Version="5.452.1400" />
+    <PackageReference Include="KryptonToolkitSuite5452CoreModule" Version="5.452.1300" />
   </ItemGroup>
 
   <ItemGroup>

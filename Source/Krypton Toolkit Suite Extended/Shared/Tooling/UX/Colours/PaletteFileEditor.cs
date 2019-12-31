@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.451/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
@@ -18,7 +18,7 @@ namespace Core.UX
     public partial class PaletteFileEditor : KryptonForm
     {
         #region Variables
-        //private FileCreator _fileCreator = new FileCreator();
+        private FileCreator _fileCreator = new FileCreator();
         #endregion
 
         public PaletteFileEditor()
@@ -36,7 +36,7 @@ namespace Core.UX
 
                 string fileContents = reader.ReadToEnd();
 
-                //filePane.Text = fileContents;
+                filePane.Text = fileContents;
             }
             catch (Exception error)
             {
@@ -46,7 +46,7 @@ namespace Core.UX
 
         private void kbtnGenerateNewFile_Click(object sender, EventArgs e)
         {
-            //_fileCreator.GenerateNewFile(filePane);
+            _fileCreator.GenerateNewFile(filePane);
         }
 
         private void PaletteFileEditor_Load(object sender, EventArgs e)

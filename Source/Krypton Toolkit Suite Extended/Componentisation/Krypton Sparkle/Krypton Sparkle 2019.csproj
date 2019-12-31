@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KryptonSparkle</RootNamespace>
     <AssemblyName>Krypton Sparkle</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -89,8 +89,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5451CoreModule">
-      <Version>5.451.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5452CoreModule">
+      <Version>5.452.2098</Version>
     </PackageReference>
     <PackageReference Include="NLog">
       <Version>4.6.8</Version>

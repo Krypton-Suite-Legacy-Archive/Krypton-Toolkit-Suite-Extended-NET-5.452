@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Persistence</RootNamespace>
     <AssemblyName>Persistence</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -244,20 +244,20 @@
     <PackageReference Include="EasyScintilla">
       <Version>1.0.5</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5451CoreModule">
-      <Version>5.451.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5452CoreModule">
+      <Version>5.452.2098</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5451DockingModule">
-      <Version>5.451.745</Version>
+    <PackageReference Include="KryptonToolkitSuite5452DockingModule">
+      <Version>5.452.753</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5451NavigatorModule">
-      <Version>5.451.774</Version>
+    <PackageReference Include="KryptonToolkitSuite5452NavigatorModule">
+      <Version>5.452.796</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5451RibbonModule">
-      <Version>5.451.828</Version>
+    <PackageReference Include="KryptonToolkitSuite5452RibbonModule">
+      <Version>5.452.850</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5451WorkspaceModule">
-      <Version>5.451.719</Version>
+    <PackageReference Include="KryptonToolkitSuite5452WorkspaceModule">
+      <Version>5.452.727</Version>
     </PackageReference>
     <PackageReference Include="snt.ScintillaNet.FindReplaceDialog">
       <Version>1.4.0</Version>
@@ -399,4 +399,7 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(ProjectDir)..\..\..\..\Bin\Shared\Persistence\" /D /R /Y /S</PostBuildEvent>
+  </PropertyGroup>
 </Project>

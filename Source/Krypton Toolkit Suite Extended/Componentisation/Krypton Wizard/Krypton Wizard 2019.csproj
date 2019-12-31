@@ -9,10 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KryptonWizard</RootNamespace>
     <AssemblyName>Krypton Wizard</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationVersion>4.70.502.0</ApplicationVersion>
-    <AssemblyVersion>5.451.594.0</AssemblyVersion>
+    <AssemblyVersion>5.452.594.0</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -167,9 +167,12 @@
     <None Include="Resources\Krypton.ico" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5451">
-      <Version>5.451.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5452">
+      <Version>5.452.2098</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(ProjectDir)..\..\..\..\Bin\Individual Components\Krypton Wizard\" /D /R /Y /S</PostBuildEvent>
+  </PropertyGroup>
 </Project>

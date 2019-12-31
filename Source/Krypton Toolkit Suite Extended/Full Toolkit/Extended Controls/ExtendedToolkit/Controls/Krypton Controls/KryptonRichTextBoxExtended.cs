@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.451/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
@@ -18,6 +18,7 @@ using System.Runtime.InteropServices;
 
 namespace ExtendedControls.ExtendedToolkit.Controls
 {
+    /*
     /// <summary>
     /// A <see cref="KryptonRichTextBox"/> control with some extra features.
     /// </summary>
@@ -327,4 +328,5 @@ namespace ExtendedControls.ExtendedToolkit.Controls
         }
         #endregion
     }
+    */
 }

@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.451/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
@@ -330,7 +330,7 @@ namespace Persistence.UX.Options
             this.kryptonPage4,
             this.kryptonPage5});
             this.kryptonDockableNavigator1.SelectedIndex = 0;
-            this.kryptonDockableNavigator1.Size = new System.Drawing.Size(627, 451);
+            this.kryptonDockableNavigator1.Size = new System.Drawing.Size(627, 452);
             this.kryptonDockableNavigator1.TabIndex = 36;
             this.kryptonDockableNavigator1.Text = "kryptonDockableNavigator1";
             // 

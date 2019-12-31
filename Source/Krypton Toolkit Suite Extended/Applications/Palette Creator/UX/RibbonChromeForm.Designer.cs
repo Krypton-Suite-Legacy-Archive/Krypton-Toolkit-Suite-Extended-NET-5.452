@@ -219,7 +219,7 @@
             // 
             this.buttonSpecAppMenu1.Style = ComponentFactory.Krypton.Toolkit.PaletteButtonStyle.Standalone;
             this.buttonSpecAppMenu1.Text = "E&xit";
-            this.buttonSpecAppMenu1.UniqueName = "74A45C33E18C445174A45C33E18C4451";
+            this.buttonSpecAppMenu1.UniqueName = "74A45C33E18C445274A45C33E18C4452";
             // 
             // kryptonRibbonContext1
             // 
