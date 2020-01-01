@@ -1095,7 +1095,7 @@
             // 
             this.pbxLinkFocusedColourPreview.BackColor = System.Drawing.Color.Transparent;
             this.pbxLinkFocusedColourPreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pbxLinkFocusedColourPreview.Location = new System.Drawing.Point(451, 127);
+            this.pbxLinkFocusedColourPreview.Location = new System.Drawing.Point(452, 127);
             this.pbxLinkFocusedColourPreview.Name = "pbxLinkFocusedColourPreview";
             this.pbxLinkFocusedColourPreview.Size = new System.Drawing.Size(64, 64);
             this.pbxLinkFocusedColourPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1107,7 +1107,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Location = new System.Drawing.Point(451, 352);
+            this.pictureBox5.Location = new System.Drawing.Point(452, 352);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 64);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1313,7 +1313,7 @@
             this.pbxCustomTextColourOnePreview.BackColor = System.Drawing.Color.Transparent;
             this.pbxCustomTextColourOnePreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbxCustomTextColourOnePreview.ContextMenuStrip = this.ctxCustomTextColourOneUtiliseAsBaseColour;
-            this.pbxCustomTextColourOnePreview.Location = new System.Drawing.Point(451, 239);
+            this.pbxCustomTextColourOnePreview.Location = new System.Drawing.Point(452, 239);
             this.pbxCustomTextColourOnePreview.Name = "pbxCustomTextColourOnePreview";
             this.pbxCustomTextColourOnePreview.Size = new System.Drawing.Size(64, 64);
             this.pbxCustomTextColourOnePreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1677,7 +1677,7 @@
             this.pbxBorderColourPreview.BackColor = System.Drawing.Color.Transparent;
             this.pbxBorderColourPreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbxBorderColourPreview.ContextMenuStrip = this.ctxBorderUtiliseAsBaseColour;
-            this.pbxBorderColourPreview.Location = new System.Drawing.Point(451, 16);
+            this.pbxBorderColourPreview.Location = new System.Drawing.Point(452, 16);
             this.pbxBorderColourPreview.Name = "pbxBorderColourPreview";
             this.pbxBorderColourPreview.Size = new System.Drawing.Size(64, 64);
             this.pbxBorderColourPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

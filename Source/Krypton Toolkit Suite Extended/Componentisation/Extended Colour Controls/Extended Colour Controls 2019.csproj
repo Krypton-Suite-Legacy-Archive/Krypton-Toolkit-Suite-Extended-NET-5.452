@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2F6A6C7-A8A9-4519-93E0-EDF09B6A03A7}</ProjectGuid>
+    <ProjectGuid>{A2F6A6C7-A8A9-4529-93E0-EDF09B6A03A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ExtendedColourControls</RootNamespace>
     <AssemblyName>Extended Colour Controls</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -160,8 +160,8 @@
     <PackageReference Include="Cyotek.Windows.Forms.ColorPicker">
       <Version>1.7.2</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5451">
-      <Version>5.451.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5452">
+      <Version>5.452.2098</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -235,4 +235,7 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(ProjectDir)..\..\..\..\Bin\Individual Components\Extended Colour Controls\" /D /R /Y /S</PostBuildEvent>
+  </PropertyGroup>
 </Project>

@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>ExtendedDocking</RootNamespace>
     <AssemblyName>Extended Docking</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -55,9 +55,12 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5451">
-      <Version>5.451.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5452">
+      <Version>5.452.2098</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(ProjectDir)..\..\..\..\Bin\Individual Components\Extended Docking\" /D /R /Y /S</PostBuildEvent>
+  </PropertyGroup>
 </Project>

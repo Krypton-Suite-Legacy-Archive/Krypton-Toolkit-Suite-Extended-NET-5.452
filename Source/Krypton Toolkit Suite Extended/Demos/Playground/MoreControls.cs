@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.451/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
@@ -114,7 +114,7 @@ namespace Playground
             this.kryptonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonPanel1.Location = new System.Drawing.Point(0, 0);
             this.kryptonPanel1.Name = "kryptonPanel1";
-            this.kryptonPanel1.Size = new System.Drawing.Size(1451, 777);
+            this.kryptonPanel1.Size = new System.Drawing.Size(1452, 777);
             this.kryptonPanel1.TabIndex = 0;
             // 
             // kryptonButton2
@@ -399,7 +399,7 @@ namespace Playground
             // 
             // MoreControls
             // 
-            this.ClientSize = new System.Drawing.Size(1451, 777);
+            this.ClientSize = new System.Drawing.Size(1452, 777);
             this.Controls.Add(this.kryptonPanel1);
             this.Name = "MoreControls";
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).EndInit();

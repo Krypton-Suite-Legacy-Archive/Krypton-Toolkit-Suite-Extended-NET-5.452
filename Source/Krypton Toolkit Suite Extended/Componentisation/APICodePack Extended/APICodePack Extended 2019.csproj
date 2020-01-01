@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>APICodePackExtended</RootNamespace>
     <AssemblyName>APICodePack Extended</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -51,11 +51,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KryptonToolkitSuite5451CoreModule">
-      <Version>5.451.1300</Version>
+    <PackageReference Include="KryptonToolkitSuite5452CoreModule">
+      <Version>5.452.2098</Version>
     </PackageReference>
-    <PackageReference Include="KryptonToolkitSuite5451NavigatorModule">
-      <Version>5.451.772</Version>
+    <PackageReference Include="KryptonToolkitSuite5452NavigatorModule">
+      <Version>5.452.796</Version>
     </PackageReference>
     <PackageReference Include="WindowsAPICodePack">
       <Version>1.1.0</Version>

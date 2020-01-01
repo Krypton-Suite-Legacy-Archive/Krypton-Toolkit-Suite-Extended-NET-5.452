@@ -2,14 +2,17 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.451/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
 
 using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Drawing;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace Core.Classes
 {
@@ -258,6 +261,29 @@ namespace Core.Classes
             }
 
             return isValid;
+        }
+
+        public static string[] ObjectCollectionToArray(ComboBox.ObjectCollection items)
+        {
+            string[] tmp;
+
+            StringCollection stringCollection = new StringCollection();
+
+            List<string> itemList = new List<string>();
+
+            foreach (string item in items)
+            {
+                stringCollection.Add(item);
+            }
+
+            foreach (string item2 in stringCollection)
+            {
+                itemList.Add(item2);
+            }
+
+            tmp = itemList.ToArray();
+
+            return tmp;
         }
         #endregion
     }

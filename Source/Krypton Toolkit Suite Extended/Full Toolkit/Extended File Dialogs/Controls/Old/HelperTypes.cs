@@ -2,7 +2,7 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.451/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
@@ -323,10 +323,10 @@ namespace ExtendedFileDialogs.Controls.Old
                         _ComboFolders = hwnd;
                         _ComboFoldersInfo = windowInfo;
                         break;
-                    case ControlsId.ComboFileType:
+                    /*case ControlsId.ComboFileType:
                         _hComboExtensions = hwnd;
                         _ComboExtensionsInfo = windowInfo;
-                        break;
+                        break;*/
                     case ControlsId.ComboFileName:
                         if (className.ToString().ToLower() == "comboboxex32")
                         {
@@ -621,8 +621,8 @@ namespace ExtendedFileDialogs.Controls.Old
         DefaultView = 0x461,
         LeftToolBar = 0x4A0,
         ComboFileName = 0x47c,
-        ComboFileType = 0x451,
-        ComboFolder = 0x471,
+        ComboFileType = 0x452,
+        ComboFolder = 0x452,
         CheckBoxReadOnly = 0x410
     }
     #endregion

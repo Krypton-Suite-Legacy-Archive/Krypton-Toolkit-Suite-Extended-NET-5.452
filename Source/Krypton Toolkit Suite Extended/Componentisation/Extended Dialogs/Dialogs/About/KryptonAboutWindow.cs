@@ -2,11 +2,10 @@
 /*
  * Use of this source code is governed by a BSD-style
  * license that can be found in the LICENSE.md file or at
- * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.451/blob/master/LICENSE
+ * https://github.com/Wagnerp/Krypton-Toolkit-Suite-Extended-NET-5.452/blob/master/LICENSE
  *
  */
 #endregion
-
 
 using ComponentFactory.Krypton.Toolkit;
 using System.Drawing;
@@ -146,7 +145,7 @@ namespace ExtendedDialogs.Dialogs.About
             // kbtnOk
             // 
             this.kbtnOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.kbtnOk.Location = new System.Drawing.Point(451, 364);
+            this.kbtnOk.Location = new System.Drawing.Point(452, 364);
             this.kbtnOk.Name = "kbtnOk";
             this.kbtnOk.Size = new System.Drawing.Size(90, 25);
             this.kbtnOk.StateCommon.Content.LongText.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

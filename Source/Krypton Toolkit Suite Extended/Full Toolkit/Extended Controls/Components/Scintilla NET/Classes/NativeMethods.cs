@@ -394,7 +394,7 @@ namespace ExtendedControls.Components.ScintillaNET.Classes
         public const int SCI_GETSELALPHA = 2477;
         public const int SCI_SETSELALPHA = 2478;
         public const int SCI_GETSELEOLFILLED = 2479;
-        public const int SCI_SETSELEOLFILLED = 2480;
+        public const int SCI_SETSELEOLFILLED = 2452;
         public const int SCI_SETCARETFORE = 2069;
         public const int SCI_ASSIGNCMDKEY = 2070;
         public const int SCI_CLEARCMDKEY = 2071;
@@ -592,7 +592,7 @@ namespace ExtendedControls.Components.ScintillaNET.Classes
         public const int SCI_GETWRAPVISUALFLAGSLOCATION = 2463;
         public const int SCI_SETWRAPSTARTINDENT = 2464;
         public const int SCI_GETWRAPSTARTINDENT = 2465;
-        public const int SCI_SETWRAPINDENTMODE = 2472;
+        public const int SCI_SETWRAPINDENTMODE = 2452;
         public const int SCI_GETWRAPINDENTMODE = 2473;
         public const int SCI_SETLAYOUTCACHE = 2272;
         public const int SCI_GETLAYOUTCACHE = 2273;
@@ -675,8 +675,8 @@ namespace ExtendedControls.Components.ScintillaNET.Classes
         public const int SCI_LINEENDDISPLAY = 2347;
         public const int SCI_LINEENDDISPLAYEXTEND = 2348;
         public const int SCI_HOMEWRAP = 2349;
-        public const int SCI_HOMEWRAPEXTEND = 2451;
-        public const int SCI_LINEENDWRAP = 2451;
+        public const int SCI_HOMEWRAPEXTEND = 2452;
+        public const int SCI_LINEENDWRAP = 2452;
         public const int SCI_LINEENDWRAPEXTEND = 2452;
         public const int SCI_VCHOMEWRAP = 2453;
         public const int SCI_VCHOMEWRAPEXTEND = 2454;
@@ -798,8 +798,8 @@ namespace ExtendedControls.Components.ScintillaNET.Classes
         public const int SCI_SETPASTECONVERTENDINGS = 2467;
         public const int SCI_GETPASTECONVERTENDINGS = 2468;
         public const int SCI_SELECTIONDUPLICATE = 2469;
-        public const int SCI_SETCARETLINEBACKALPHA = 2451;
-        public const int SCI_GETCARETLINEBACKALPHA = 2471;
+        public const int SCI_SETCARETLINEBACKALPHA = 2452;
+        public const int SCI_GETCARETLINEBACKALPHA = 2452;
         public const int SCI_SETCARETSTYLE = 2512;
         public const int SCI_GETCARETSTYLE = 2513;
         public const int SCI_SETINDICATORCURRENT = 2500;
